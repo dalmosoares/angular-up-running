@@ -1,0 +1,15 @@
+{
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "chrome-desenvolvimento",
+      "type": "chrome",
+      "request": "launch",
+      "preLaunchTask": "npm: start",
+      "url": "http://localhost:4200",
+      "runtimeExecutable": "/home/dalmo/programas/navegador/chrome/navegador/chrome/chrome",
+      "runtimeArgs": ["--user-data-dir=${workspaceFolder}/deploy/profile/chrome-profile"]
+    }
+  ]
+}
